@@ -1,0 +1,553 @@
+/*背景と文字のフォント（全体）*/
+body {
+  background-color: #eedcb3;
+  font-weight: bold;
+}
+
+/*　ボタンの中央寄せ */
+div {
+  text-align: center;
+}
+
+.underline {
+  border-bottom: 1px solid;
+  width: auto;
+  padding-bottom: 0px;
+}
+
+/*見出しの設定*/
+h4 {
+  color: brown;
+  text-align: center;
+  font-size: 30px;
+  background-color: beige;
+  /* font-family: 'Times New Roman', Times, serif; */
+}
+
+h5 {
+  font-size: 150%;
+  text-align: center;
+  /* font-family: 'Times New Roman', Times, serif; */
+}
+
+.h6 {
+  font-size: 23px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 7px;
+  /* font-family: 'Times New Roman', Times, serif; */
+}
+
+.pp4 {
+  text-align: center;
+}
+
+/* テーブルのデザイン */
+.minitable {
+  color: white;
+  width: 90%;
+  margin: 10px auto;
+  border-spacing: 0;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.minitable th {
+  width: 50%;
+  text-align: center;
+  padding: 0px;
+  height: 25px;
+  font-size: 25px;
+  background-color: brown;
+}
+
+.minitable td {
+  width: 50%;
+  text-align: center;
+  height: 25px;
+  font-size: 25px;
+  padding: 0px;
+  color: black;
+}
+
+.tabledesign {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: solid 1px #808d9a;
+}
+
+.tabledesign tr {
+  border: 1px black;
+}
+
+.tabledesign th {
+  height: 10px;
+  padding: 0px;
+  background: brown;
+}
+
+.tabledesign td {
+
+  padding: 5px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.tabledesign_01 {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: solid 1px #808d9a;
+}
+
+.tabledesign_01 tr {
+  border: 1px black;
+}
+
+.tabledesign_01 th {
+  height: 10px;
+  padding: 0px;
+  background: brown;
+}
+
+.tabledesign_01 td {
+  text-align: left;
+  padding: 5px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.fixed01 {
+  font-size: 20px;
+  height: 10px;
+  /* 高さを指定 */
+  position: sticky;
+  padding: 0px 0px;
+  top: 0;
+  color: #fff;
+  background: #333;
+}
+
+.fixed01:before {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc;
+}
+
+/* 個人情報入力 */
+.heighttableform {
+  border-collapse: separate;
+  /* border-spacing: 5px; */
+  width: 80%;
+  height: 0%;
+  table-layout: auto;
+  margin: auto;
+}
+
+.heighttableform th,
+.heighttableform td {
+  border-radius: 5px;
+  text-align: center;
+  /* padding: 0px 0; */
+}
+
+.heighttableform th {
+  font-size: 20px;
+  background-color: #dd845b;
+  color: white;
+  border: solid 1px #c5b7a2;
+}
+
+.heighttableform td {
+  background-color: #e9e4dc;
+  border: solid 1px #af9d85;
+}
+
+/* 個人情報確認 */
+.heighttable {
+  border-collapse: separate;
+  border-spacing: 5px;
+  width: 80%;
+  height: 0%;
+  table-layout: auto;
+  margin: auto;
+}
+
+.heighttable th,
+.heighttable td {
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.heighttable th {
+  background-color: #dd845b;
+  color: white;
+  border: solid 1px #c5b7a2;
+}
+
+.heighttable td {
+  background-color: #e9e4dc;
+  border: solid 1px #af9d85;
+}
+
+.checkbox {
+  box-sizing: border-box;
+  /* ボックスモデルの調整 */
+  width: 80px;
+  /* 幅の設定 */
+  height: 80px;
+  /* 高さの設定 */
+  background-color: blue;
+  /* 背景色の設定 */
+}
+
+.quantity {
+  font-size: large;
+  font-weight: bold;
+  width: 80px;
+  height: 40px;
+}
+
+/*見出しの設定*/
+.title {
+  color: brown;
+  text-align: center;
+  font-size: 50px;
+  background-color: beige;
+}
+
+/* ボタンの大きさ 管理者画面*/
+.button {
+  width: 370px;
+  display: inline-block;
+  border-radius: 5%;
+  /* 角丸       */
+  font-size: 30px;
+  /* 文字サイズ */
+  text-align: center;
+  /* 文字位置   */
+  cursor: pointer;
+  /* カーソル   */
+  padding: 30px 12px;
+  /* 余白       */
+  background: #000066;
+  /* 背景色     */
+  color: #ffffff;
+  /* 文字色     */
+  line-height: 1em;
+  /* 1行の高さ  */
+  transition: .3s;
+  /* なめらか変化 */
+  box-shadow: 6px 6px 3px #666666;
+  /* 影の設定 */
+  border: 2px solid #000066;
+  /* 枠の指定 */
+}
+
+.button:hover {
+  box-shadow: none;
+  /* カーソル時の影消去 */
+  color: #000066;
+  /* 背景色     */
+  background: #ffffff;
+  /* 文字色     */
+}
+
+/*ボタンの並列*/
+#navi {
+  display: flex;
+  justify-content: center;
+}
+
+#navi ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+#navi ul li {
+  margin: 10px 20px;
+  font-weight: bold;
+  color: white;
+  font-size: 0px;
+}
+
+/* ↓id="nav"の中のulに対してCSSを適用*/
+#nav ul {
+  list-style-type: none;
+  /*箇条書きのポッチを消す*/
+  text-align: center
+    /*左右中央寄せは親要素に対して指定*/
+}
+
+/* ↓id="nav"の中のulの中のliに対してCSSを適用*/
+#nav ul li {
+  display: inline-block;
+  /*inline-blockにします*/
+  /* width: 300px; */
+  /*幅も指定できる*/
+  /* padding: 10px 0; */
+  /*余白も指定できる*/
+  margin: 10px 20px;
+  /*余白も指定できる*/
+  vertical-align: middle;
+  /*縦の表示位置も指定できる*/
+  font-weight: bold;
+  /*文字を太字に*/
+  color: white;
+  /*文字色を白に*/
+}
+
+/* スクロールバーのスタイルを定義 */
+.scrollbar-container {
+  height: 500px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}
+
+/* テーブルの横の長さ指定 */
+.scrollbar-container th {
+  min-height: 100%;
+}
+
+/* 画像のサイズを一律に設定 */
+.scrollbar-container img {
+  width: 100px;
+  height: 150px;
+}
+
+.scrollbar-container::-webkit-scrollbar-thumb {
+  background-color: #888;
+  /* スクロールバーの色 */
+  border-radius: 5px;
+  /* スクロールバーの角の丸み */
+}
+
+/* 合計金額のフォント */
+.total-price {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* テーブルのフォント */
+table {
+  width: 100%;
+}
+
+.toppage {
+  text-align: center;
+  display: flex;
+}
+
+span {
+  margin: 0 auto;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.god {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  width: 500px;
+  padding: 10px;
+  /* margin-right: 5px; */
+  background: brown;
+  border-bottom: solid 4px indigo;
+  border-radius: 30px;
+  padding: 0.5em 2em;
+  /* margin: 1.0em 10px; */
+  display: flex;
+  justify-content: center;
+  /* テキストを中央揃え */
+  align-items: center;
+  /* テキストを垂直方向に中央揃え */
+  /* font-family: 'Times New Roman', Times, serif; */
+  cursor: pointer;
+  /* カーソル   */
+  line-height: 1em;
+  /* 1行の高さ  */
+  transition: .3s;
+  /* なめらか変化 */
+  box-shadow: 6px 6px 3px #666666;
+  /* 影の設定 */
+}
+
+.god:hover {
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-animation: simple_square_btn4 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  -moz-animation: simple_square_btn4 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: simple_square_btn4 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.god:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  /*下に動く*/
+  border-bottom: none;
+  /*線を消す*/
+}
+
+/* 一括チェックボタン */
+.god2 {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  width: 150px;
+  /* padding: 10px; */
+  /* margin-right: 5px; */
+  background: #F6F5EA;
+  border-bottom: solid 4px indigo;
+  border-radius: 30px;
+  padding: 0.5em 2em;
+  margin: 4px 0px;
+  display: flex;
+  justify-content: center;
+  /* テキストを中央揃え */
+  align-items: center;
+  /* テキストを垂直方向に中央揃え */
+  /* font-family: 'Times New Roman', Times, serif; */
+  cursor: pointer;
+  /* カーソル   */
+  line-height: 1em;
+  /* 1行の高さ  */
+  transition: .3s;
+  /* なめらか変化 */
+  box-shadow: 6px 6px 3px #666666;
+  /* 影の設定 */
+}
+
+.god2:hover {
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-animation: simple_square_btn4 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  -moz-animation: simple_square_btn4 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: simple_square_btn4 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.god2:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  /*下に動く*/
+  border-bottom: none;
+  /*線を消す*/
+}
+
+/* スマートフォン用のスタイル */
+@media screen and (max-width: 480px) {
+  body {
+    max-width: 480px;
+  }
+
+  /* ボタン */
+  .god {
+    display: flex;
+    width: 100px;
+  }
+
+  /* 一括チェックボタン */
+  .god2 {
+    text-align: right;
+    font-size: 20px;
+    width: 10px;
+  }
+
+  /* チェックボックスの大きさ */
+  .checkbox {
+    width: 30px;
+  }
+
+  .tabledesign_01 th {
+    height: 10px;
+    padding: 0px;
+    background: brown;
+  }
+
+  .tabledesign_01 td {
+    /* text-align: left; */
+    padding: 5px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 13px;
+  }
+
+  /* miniテーブルのデザイン */
+  .minitable th {
+    font-size: 15px;
+  }
+
+  .minitable td {
+    font-size: 15px;
+  }
+
+  .No {
+    text-align: left;
+  }
+}
+
+/* iPad用のスタイル */
+@media screen and (max-width: 959px) {
+  body {
+    max-width: 960px;
+  }
+
+  /* チェックボックスの大きさ */
+  .checkbox {
+    width: 60px;
+  }
+
+  /* ボタン */
+  .god {
+    display: flex;
+    width: 140px;
+  }
+
+  /* 一括チェックボタン */
+  .god2 {
+    text-align: right;
+    font-size: 25px;
+    width: 200px;
+  }
+
+  .tabledesign_01 th {
+    height: 10px;
+    padding: 0px;
+    background: brown;
+  }
+
+  .tabledesign_01 td {
+    text-align: left;
+    padding: 5px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  /* miniテーブルのデザイン */
+  .minitable th {
+    font-size: 20px;
+  }
+
+  .minitable td {
+    font-size: 20px;
+  }
+
+  .No {
+    text-align: left;
+  }
+}
